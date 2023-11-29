@@ -1,4 +1,4 @@
-// https://github.com/AntonC9018/uniCourse_dataStructuresAndAlgorithms/blob/master/ru/labs/lab3.md
+https://github.com/AntonC9018/uniCourse_dataStructuresAndAlgorithms/blob/master/ru/labs/lab3.md
 
 В обоих вариантах переменная `a` является статической в контексте функции `staticMemory()`. Однако они имеют разные области видимости и время жизни:
 
