@@ -1,3 +1,5 @@
+// https://github.com/AntonC9018/uniCourse_dataStructuresAndAlgorithms/blob/master/ru/labs/lab2.md
+
 #include <stdlib.h>
 #include <iostream>
 
