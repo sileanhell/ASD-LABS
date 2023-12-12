@@ -1,13 +1,12 @@
-#include <span> // Включаем заголовочный файл для std::span
+#include <span>
 
-struct DynamicArray // Объявляем структуру DynamicArray
+struct DynamicArray
 {
-    int* data; // Указатель на данные массива
-    int length; // Текущее количество элементов в массиве
-    int capacity; // Максимальное количество элементов, которое может вместить массив
+    int* data;
+    int length;
+    int capacity;
 };
 
-// Объявляем функции, которые будут реализованы в dynamicArray.cpp
 DynamicArray createDynamicArrayWithCapacity(int capacity);
 DynamicArray createDynamicArray();
 void addElementToArray(DynamicArray* arr, int element);
