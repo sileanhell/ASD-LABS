@@ -2,9 +2,9 @@
 
 struct DynamicArray
 {
-    int* data;
-    int length;
-    int capacity;
+    int* data; // Указатель на начало буферa
+    int length; // Указатель на данные массива
+    int capacity; // Текущее количество элементов в массиве
 };
 
 DynamicArray createDynamicArrayWithCapacity(int capacity);
